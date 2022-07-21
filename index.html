@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Curriculum-Portfolio</title>
+</head>
+<body>
+  <div class="portfolio"> 
+    <header>
+      <h1>Portfolio<span class="world"> &#127757;</span><span> Mauro.V</span></h1>
+      <article>
+      <h2>Achievement as developer - 2022</h2>
+      </article>
+    </header>         
+      <a href="#" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      </a>  
+      <br>      
+      <!-- CLOCK --> 
+        <div id="clock"></div>
+      <br>     
+    <div class="nav-bar">
+      <nav id="navbar">
+        <ul class="links"> 
+          <li><a href="#home">HOME <span> &#127968;</span></a></li>
+          <li class="dropdown-general">        
+          <a href="#" class="dropbtn">ABOUT <span>&#11088;</span></a>
+            <div class="general-drop">
+            <a href="#myModalA" id="modalA">Interest <span>&#128049;</span></a> <!--BUTTON MODAL-->
+            <a href="#myModalH" id="modalH">Hobby <span>&#127907;</span></a> <!--BUTTON MODAL-->
+            <a href="#myModalE" id="modalE">Education <span>&#127891;</span></a> <!--BUTTON MODAL-->
+            </div>
+          </li>                
+          <li class="dropdown-work">
+            <a href="#" class="dropbtn">EXPERIENCES <span> &#127981;</span></a>
+              <div class="work-drop">
+              <a href="#myModalD" id="modalD">Developer <span>&#128125;</span></a> <!--BUTTON MODAL-->
+              <a href="#myModalM" id="modalM">Mouldmaker <span>&#128295;</span></a> <!--BUTTON MODAL-->
+              <a href="#myModalF" id="modalF">Farmer <span>&#127793;</span></a> <!--BUTTON MODAL-->
+              <a href="#myModalB" id="modalB">Butcher <span>&#129385;</span></a> <!--BUTTON MODAL-->
+              </div>
+          </li>                
+          <li class="dropdown-code">
+            <a href="#" class="dropbtn">CODE <span>&#128190;</span></a>
+              <div class="code-drop">
+              <a href="#" id="modalHt">HTML5 <span><img src="imm/html.png" alt="html"></span></a> <!--BUTTON MODAL-->
+              <a href="#" id="modalC">CSS3 <span><img src="imm/css3.png" alt="CSS3"></span></a> <!--BUTTON MODAL-->
+              <a href="#" id="modalJ">Javascript <span><img src="imm/js.png" alt="Js"></span></a> <!--BUTTON MODAL-->
+              <a target="_blank" href="https://icons8.it/">Icons<span>&#128270;</span></a>
+              </div>
+          </li> 
+          <li class="dropmenu-target">
+            <a href="#">TARGET <span>&#127993;</span></a>
+              <div class="target-drop">
+                <ul>
+                  <a href="https://www.html.it/guide/guida-html5/" target="_blank">Html5</a><br>            
+                  <img src="imm/target/html5-icon.png" alt="html5"><br>             
+                  <a href="https://www.html.it/guide/guida-css3/" target="_blank">Css3</a><br> 
+                  <img src="imm/target/css3.png" alt="css3"><br> 
+                  <a href="https://it.wikipedia.org/wiki/JavaScript" target="_blank">Javascript</a><br> 
+                  <img src="imm/target/javascript.png" alt="js"><br> 
+                  <a href="https://it.wikipedia.org/wiki/GitHub" target="_blank">GitHub</a><br> 
+                  <img src="imm/target/github.png" alt="github"><br> 
+                  <a href="https://aplus-framework.com/" target="_blank">A+</a><br> 
+                  <img src="imm/target/aplus.png" alt="A+"><br> 
+                  <a href="https://nodejs.org/it/" target="_blank">Node.js</a><br> 
+                  <img src="imm/target/nodejs.png" alt="node.js"><br> 
+                  <a href="https://www.npmjs.com/" target="_blank">NpM</a><br> 
+                  <img src="imm/target/npm.png" alt="npm"><br> 
+                  <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a><br> 
+                  <img src="imm/target/typescript.png" alt="typescript"><br> 
+                  <a href="https://it.reactjs.org/" target="_blank">React</a><br> 
+                  <img src="imm/target/react.png" alt="react"><br> 
+                  <a href="https://nextjs.org/" target="_blank">Next.js</a><br> 
+                  <img src="imm/target/next-js.png" alt="next.js">
+                  <a href="https://it.wikipedia.org/wiki/PHP" target="_blank">PhP</a><br> 
+                  <img src="imm/target/php.png" alt="php"><br> 
+                  <a href="https://www.mysql.com/it/" target="_blank">MySQL</a><br> 
+                  <img src="imm/target/mysql.png" alt="mysql"><br> 
+                  <a href="https://www.python.org/" target="_blank">Python</a><br> 
+                  <img src="imm/target/python.png" alt="python"><br> 
+                </ul>
+              </div>
+          </li> 
+          <li class="dropmenu-tools">
+            <a href="#">TOOLS <span>&#128188;</span></a>
+              <div class="tools-drop">
+                <ul>
+                <a target="_blank" href="https://developer.chrome.com/docs/devtools/">DevTools</a><br>
+                <img src="imm/tools/devtools.png" alt="devtools"><br>
+                <a target="_blank" href="https://code.visualstudio.com/">VSCode</a><br>
+                <img src="imm/tools/visual.png" alt="Vscode"><br>
+                <a target="_blank" href="https://it.libreoffice.org/">LibreOffice</a><br>
+                <img src="imm/tools/libre.png" alt="libre-office"><br>
+                <a target="_blank" href="https://it.wikipedia.org/wiki/Figma_(software)">Figma</a><br>
+                <img src="imm/tools/figma.png" alt="Figma"><br>
+                <a target="_blank" href="https://inkscape.org/it/">Inkscape</a><br>
+                <img src="imm/tools/inkscape.png" alt="inkscape"><br>
+                <a target="_blank" href="https://it.wikipedia.org/wiki/GIMP">Gimp</a><br>
+                <img src="imm/tools/gimp.png" alt="the-gimp"><br>
+                <a target="_blank" href="https://desktop.github.com/">GitHubDesktop</a><br>
+                <img src="imm/tools/github-desk.png" alt="github-desktop"><br>          
+                </ul>
+              </div>
+          </li>
+        </ul>         
+      </nav>
+    </div>
+    <main>
+      <div class="maincontainer">                 
+        <!-- The Modal INTEREST-->
+        <div id="myModal" class="modal"> <!-- The Modal -->
+          <div class="modal-content-interest"> <!-- Modal content -->
+          <span class="close">&times;</span>          
+          <div class="slideshow-container">      
+          <div class="mySlides fade">
+          <div class="numbertext">1 / 14</div>          
+          <img src="imm/interest/ciuffo.png" alt="ciuffo">        
+          <div class="text">Ciuffo</div>
+          </div>                  
+          <div class="mySlides fade">
+          <div class="numbertext">2 / 14</div>
+          <img src="imm/interest/girasole.png" alt="girasole">
+          <div class="text">Sunflower</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">3 / 14</div>
+          <img src="imm/interest/paco.png" alt="paco">
+          <div class="text">Paco</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">4 / 14</div>
+          <img src="imm/interest/manolo.png" alt="manolo">
+          <div class="text" style="color: black;">Manolo</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">5 / 14</div>
+          <img src="imm/interest/maefi.png" alt="mother and daughter">
+          <div class="text">Candy-Bibi</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">6 / 14</div>
+          <img src="imm/interest/vineyard.png" alt="vigneto">
+          <div class="text">Vineyard</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">7 / 14</div>
+          <img src="imm/interest/garlic.png" alt="aglio">
+          <div class="text">Garlic</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">8 / 14</div>
+          <img src="imm/interest/vineyard2.png" alt="vigna">
+          <div class="text">Vineyard</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">9 / 14</div>
+          <img src="imm/interest/grape.png" alt="uva">
+          <div class="text" style="color: black;">Grape</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">10 / 14</div>
+          <img src="imm/interest/3cats.png" alt="3-cats">
+          <div class="text">Candy,Cleo,Bibi</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">11 / 14</div>
+          <img src="imm/interest/innesto.png" alt="innesto-ciliegia">
+          <div class="text">Grafting on cherry</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">12 / 14</div>
+          <img src="imm/interest/stella.png" alt="Huskye">
+          <div class="text" style="color: black;">Stella</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">13 / 14</div>
+          <img src="imm/interest/orto.png" alt="orto">
+          <div class="text">Vegetable garden</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">14 / 14</div>
+          <img src="imm/interest/teme.png" alt="gatto">
+          <div class="text">Teme</div>
+          </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a> <!-- For all slideshow -->
+            <a class="next" onclick="plusSlides(1)">❯</a>
+          </div>
+          </div>
+        </div>     
+          <!-- HOBBY -->
+          <div id="myModalH" class="modal" onclick="document.getElementById('myModalH').style.display='none'"> <!-- The Modal -->
+          <div class="modal-content-hobby"> <!-- Modal content -->
+          <span class="closeH">&times;</span>
+          <div class="hobby"> 
+            <figure>
+            <img src="imm/hobby/carparegina.png" alt="Queen-Carp">
+            <figcaption>Queen Carp - All the fish were released &#9996;</figcaption>
+            </figure>            
+          </div>
+          <div class="hobby">
+            <figure>
+            <img src="imm/hobby/carpaspecchi.png" alt="Mirrors Carp">
+            <figcaption>Mirrors Carp</figcaption>
+            </figure>
+          </div>
+          <div class="hobby">
+            <figure>
+            <img src="imm/hobby/fiumepo.png" alt="fiume-Po">
+            <figcaption>Po River</figcaption>
+            </figure>
+          </div>
+          <div class="hobby">
+            <figure>
+            <img src="imm/hobby/fossile.png" alt="fossile">
+            <figcaption>Fossil. <i> Sea urchin (Alpi)</i></figcaption>
+            </figure>
+          </div>
+          <div class="hobby">
+            <figure>
+            <img src="imm/hobby/giada.png" alt="Giada-Piemonte">
+            <figcaption>Giada Piemontese</figcaption>
+            </figure>
+          </div>
+          <div class="hobby">
+            <figure>           
+            <img src="imm/hobby/meteorite.png" alt="meteorite">
+            <figcaption>Meteorite</figcaption>
+            </figure>
+          </div>
+          </div>
+          </div>
+          <!-- EDUCATION -->
+          <div id="myModalE" class="modal" onclick="document.getElementById('myModalE').style.display='none'"> <!-- The Modal -->
+          <div class="modal-content-education"> <!-- Modal content -->
+          <span class="closeE">&times;</span>
+            <address>
+              <p class="manzoni">Compulsory School Certificate: <a href="https://cercalatuascuola.istruzione.it/cercalatuascuola/istituti/TOMM8A5016/ic-nichelino-i-manzoni-a/" target="_blank">A.Manzoni</a></p>               
+            </address> 
+          <div class="frame">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.299308101885!2d7.644057115755375!3d44.99854347241385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4788125a85aa0e13%3A0x4363b03259d95591!2sScuola%20Media%20Manzoni!5e0!3m2!1sit!2sit!4v1657259576042!5m2!1sit!2sit" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+          </div>            
+          </div>
+          </div>
+          <!-- DEVELOPER -->
+          <div id="myModalD" class="modal"> <!-- The Modal -->
+          <div class="modal-content-developer"> <!-- Modal content -->
+          <span class="closeD">&times;</span>
+          <h2 class="some-work">Aspring Developer</h2> 
+          <h3>Here you can see some of my work stored at: @MioMauro.github.io</h3>
+          <ul class="ul-works">
+            <li><a href="https://miomauro.github.io/FrontEndMentor_Preview-card/" target="_blank">- FrontEndMentor_Preview-card</a></li>
+            <li><a href="https://miomauro.github.io/CodeCamp-Picasso/" target="_blank">- CodeCamp_Picasso</a></li>
+            <li><a href="https://miomauro.github.io/FrontEndMentor_tracking-dashboard/" target="_blank">- FrontEndMentor_Dashboard</a></li>
+            <li><a href="https://miomauro.github.io/FrontEndMentor_landing-page/" target="_blank">- FrontEndMentor_Landing-page</a></li>
+            <li><a href="https://miomauro.github.io/FrontEndMentor_grid-template/" target="_blank">- FrontEndMentor_Grid-template</a></li>
+            <li><a href="https://miomauro.github.io/CodeCamp-Balance-Sheet/" target="_blank">- CodeCamp-Balance-Sheet</a></li>
+            <li><a href="https://miomauro.github.io/CodeCamp-FORM/" target="_blank">- CodeCamp-Form</a></li>
+            <li><a href="https://miomauro.github.io/CodeCamp_Quiz/" target="_blank">- CodeCamp_Quiz</a></li>
+            <li><a href="https://miomauro.github.io/FrontEndMentor_Single-price-grid/" target="_blank">- FrontEndMentor_Single price component</a></li>
+            <li><a href="https://miomauro.github.io/FrontEndMentor_component-master/" target="_blank">- FrontEndMentor_Component-master</a></li>
+            <li><a href="https://miomauro.github.io/3-column-card/" target="_blank">- FrontEndMentor_3-column-card</a></li>
+            <li><a href="https://miomauro.github.io/FrontEndMentor_Four-card-feature/" target="_blank">- FrontEndMentor_Four-Card-feature</a></li>
+            <li><a href="https://miomauro.github.io/CodeCamp-Piano/" target="_blank">- CodeCamp_Piano </a></li>
+            <li><a href="https://miomauro.github.io/CodeCamp-city_skyline/" target="_blank">- CodeCamp_City_skyline </a></li>
+            <li><a href="https://miomauro.github.io/CadeCademy_table/" target="_blank">- CodeCademy_Table </a></li>
+            <li><a href="https://miomauro.github.io/CodeCademy-Form/" target="_blank">- CodeCademy_Form </a></li>
+            <li><a href="https://miomauro.github.io/CodeCamp-Grid_Magazine/" target="_blank">- CodeCamp_Magazine </a></li>
+            <li><a href="https://miomauro.github.io/CodeCademy-Form-validation/" target="_blank">- CodeCademy_Form-validation</a></li>
+            <li><a href="https://miomauro.github.io/CodeCamp-Penguin/" target="_blank">- CodeCamp_Penguin</a></li>
+          </ul>                  
+          <div class="image-icons8">
+          <a href="https://icons8.com/illustrations/author/292791" target="_blank"><img src="imm/developer/image832.png" alt="Icons8"></a>
+          </div>
+          </div>
+          </div>                
+          <!-- MOULD-MAKER -->                    
+          <div id="myModalM" class="modal" onclick="document.getElementById('myModalM').style.display='none'"> <!-- The Modal -->
+          <div class="modal-container">
+          <div class="modal-content-mould-maker"> <!-- Modal content -->
+          <span class="closeM">&times;</span>
+          <h2 class="mould">Mould maker</h2>
+          <img class="first-img" src="imm/mould-maker/pic1.png" alt="at-work">
+          <h3>20 years' experience in precision mechanics</h3>
+          <h4>- Construction and assembly of moulds on the bench using precision equipment. <br><br>
+              - Maintenance and adjustment of thermoplastic and die-casting moulds. <br><br>
+              - On-board mould repair and set-up. <br><br>
+              - TIG welding on steel, and wire welding on frames. <br><br>
+              - Mirror polishing on metals with diamond pastes. <br><br>
+              - Assembly and wiring of hot and cold chambers. <br><br>
+              - Modification and implementation of cooling circuits on moulds. <br><br>
+              - Good knowledge of mechanical drawing. <br><br>
+              - Excellent knowledge of measuring instruments: calibre, palmer, protractor. <br><br>
+              - Excellent knowledge of traditional machine tools such as: pantograph, milling machine, lathe, grinding &ensp;machine. <br> <br>                       
+          </h4>
+          <img class="second-img" src="imm/mould-maker/pic2.png" alt="at-work-2">
+          </div>
+          </div>
+          </div>
+          <!-- FARMER -->
+          <div id="myModalF" class="modal"> <!-- The Modal -->
+          <div class="modal-content-farmer"> <!-- Modal content -->
+          <span class="closeF">&times;</span>
+          <h2>as Farmer</h2>
+          <h3><i>4 years' practice in the agricultural sector as a small businessman</i></h3>
+          <h4>
+            Experience and professionalism in pruning fruit trees <br><br>
+            Vine pruning expert <br><br>
+            Expertise in garden care <br><br>
+            Knowledge in drip irrigation systems <br><br>
+            Grafting of fruit plants
+          </h4> 
+          <div class="img-farmer-2"><img  src="imm/farmer/farmer-img2.png" alt="green2"></div>                          
+          <div class="img-farmer-3"><img  src="imm/farmer/farmer-img3.png" alt="green3"></div>
+          </div>
+          </div>
+          <!-- BUTCHER -->
+          <div id="myModalB" class="modal"> <!-- The Modal -->
+          <div class="modal-content-butcher"> <!-- Modal content -->
+          <span class="closeB">&times;</span>
+          <div class="mad-butch"><a href="//en.wikipedia.org/wiki/SPV_GmbH" title="SPV GmbH" target="_blank">
+          <img src="imm/butcher/butcher.png" alt="butcher"></a>
+          </div>
+            <header><h2>as Butcher</h2></header>
+              <ul>
+              <li><p> Excellent dexterity in the use of knives</p></li>
+              <li><p> Excellent knowledge of boning and selecting meats</p></li>
+              <li><p> Experience in the preparation of meat products</p></li>
+              <li><p> Management of the butcher's counter</p></li>
+              <li><p> Excellent relationship with customers</p></li>
+              </ul>                          
+          </div>
+          </div>
+          <!-- HTML -->
+          <div id="myModalHt" class="modal"> <!-- The Modal -->
+          <div class="modal-content-html"> <!-- Modal content -->
+          <span class="closeHt">&times;</span>
+            <h2>HTML5</h2>
+            <h3>HTML5 progress at: <a target="_blank" href="https://www.w3schools.com/"> w3schools</a></h3>
+            <img src="imm/code/html5.png" alt="html5">
+          </div>
+          </div>
+          <!-- CSS -->
+          <div id="myModalC" class="modal"> <!-- The Modal -->
+          <div class="modal-content-css"> <!-- Modal content -->
+          <span class="closeC">&times;</span>
+            <h2>CSS3</h2>
+            <h3>CSS3 Progress at: <a target="_blank" href="https://www.w3schools.com/"> w3schools</a></h3>
+            <img src="imm/code/css.png" alt="css3">                                
+          </div>
+          </div>
+          <!-- JS -->
+          <div id="myModalJ" class="modal"> <!-- The Modal -->
+          <div class="modal-content-js"> <!-- Modal content -->
+          <span class="closeJ">&times;</span>
+            <h2>Javascript</h2>
+            <h3>I am currently learning:</h3>
+            <h4>Tony Chan's <a href="https://www.amazon.it/JavaScript-guida-definitiva-facile-tutti/dp/B09TW4WY3Q/ref=pd_lpo_3?pd_rd_i=B09TW4WY3Q&psc=1" target="_blank"> book</a>
+                , at W3S <a href="https://www.w3schools.com/" target="_blank"> Tutorials</a> 
+                and CodeCamp <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank">JavaScript Algorithms and Data Structures</a></h4>
+            <img src="imm/code/logo-js.png" alt="Javascript">
+          </div>
+          </div> 
+        </div>
+        <br>
+        <br>
+        <div class="explore">
+          <header class="explore-btn">
+            <h2>BUTTONS</h2>
+          </header>          
+        </div>
+          <br>
+          <br>
+          <div class="main-buttons">
+            <div class="search-div">
+              <form action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" placeholder="Search on Google" name="q">
+                <button class="btn-search" type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+              <div><button type="button" class="btn btn-1"><a target="_blank" href="https://www.youtube.com/">YouTube</a></button></div>
+              <div><button type="button" class="btn btn-2"><a href="https://www.iolavoro.org/index.php?option=com_iolavoro&task=public.display&layout=employer&man=1&id=11056&Itemid=658#scroll-to" target="_blank">Io lavoro</a></button></div>
+              <div><button type="button" class="btn btn-3"><a target="_blank" href="https://miomauro.github.io/CodeCamp-city_skyline/">Example</a></button></div>
+              <div><button type="button" class="btn btn-4">Arrow<span> &#9655;</span></button></div>
+              <div><button type="button" class="btn btn-5"><a target="_blank" href="https://freecodecamp.org/certification/MioMauro/responsive-web-design">Certificate</a></button></div>
+              <div><button type="button" class="btn btn-6"><a target="_blank" href="imm/portfolio .pdf">Portfolio.Pdf</a></button></div>        
+          </div>
+            <br>
+          <div class="span-grid">
+            <h2>SPAN GRID</h2>
+          </div>
+          <div class="grid">
+            <div class="little-box box1"><p>🌈</p></div>
+            <div class="little-box box2"><p>2</p></div>
+            <div class="little-box box3"><p>🍺</p></div>
+            <div class="little-box box4"><p>4</p></div>
+            <div class="little-box box5"><p>☕</p></div>
+            <div class="little-box box6"><p>6</p></div>
+            <div class="little-box box7"><p>7</p></div>
+            <div class="little-box box8"><p>💩</p></div>
+            <div class="little-box box9"><p>⏳</p></div>
+            <div class="little-box box10"><p>⏰</p></div>
+            <div class="little-box box11"><p>11</p></div>
+            <div class="little-box box12"><p>12</p></div>
+            <div class="little-box box13"><p>👿</p></div>
+            <div class="little-box box14"><p>14</p></div>
+            <div class="little-box box15"><p>15</p></div>
+            <div class="little-box box16"><p>⏳</p></div>
+            <div class="little-box box17"><p>17</p></div>
+            <div class="little-box box18"><p>🐤</p></div>
+            <div class="little-box box19"><p>19</p></div>
+            <div class="little-box box20"><p>✍</p></div>
+            <div class="little-box box21"><p>21</p></div>
+            <div class="little-box box22"><p>22</p></div>
+            <div class="little-box box23"><p>⭐</p></div>
+            <div class="little-box box24"><p>24</p></div>
+            <div class="little-box box25"><p>🍆</p></div>
+            <div class="little-box box26"><p>26</p></div>
+            <div class="little-box box27"><p>❤</p></div>
+            <div class="little-box box28"><p>⌛</p></div>
+            <div class="little-box box29"><p>29</p></div>
+            <div class="little-box box30"><p>💩</p></div>
+            <div class="little-box box31"><p>31</p></div>
+            <div class="little-box box32"><p>🌵</p></div>
+            <div class="little-box box33"><p>33</p></div>
+            <div class="little-box box34"><p>⚡</p></div>
+            <div class="little-box box35"><p>35</p></div>
+            <div class="little-box box36"><p>🐀</p></div>
+            <div class="little-box box38"><p>🐱</p></div>
+            <div class="little-box box39"><p>39</p></div>
+            <div class="little-box box40"><p>💥</p></div>
+            <div class="little-box box41"><p>✉</p></div>
+            <div class="little-box box42"><p>42</p></div>
+            <div class="little-box box43"><p>🌵</p></div>
+            <div class="little-box box44"><p>44</p></div>
+            <div class="little-box box45"><p>♿</p></div>
+            <div class="little-box box46"><p>46</p></div>
+            <div class="little-box box47"><p>🐀</p></div>
+            <div class="little-box box48"><p>48</p></div>
+            <div class="little-box box49"><p>🐱</p></div>
+            <div class="little-box box50"><p>50</p></div>
+            <div class="little-box box51"><p>🍄</p></div>
+            <div class="little-box box52"><p>52</p></div>
+            <div class="little-box box53"><p>🌵</p></div>
+            <div class="little-box box54"><p>54</p></div>
+            <div class="little-box box55"><p>💩</p></div>
+            <div class="little-box box56"><p>56</p></div>
+            <div class="little-box box57"><p>🐀</p></div>
+            <div class="little-box box58"><p>58</p></div>
+            <div class="little-box box59"><p>🐱</p></div>
+            <div class="little-box box60"><p>60</p></div>
+            <div class="little-box box61"><p>🐀</p></div>
+            <div class="little-box box62"><p>62</p></div>
+            <div class="little-box box63"><p>🐱</p></div>
+            <div class="little-box box64"><p>❓</p></div>
+          </div>
+            <br>
+          <div class="table-int">
+            <h2>TABLE</h2>
+          </div>          
+          <table>
+            <caption>Raccolti 2019/2022</caption>
+            <tr>
+              <th>Prodotti</th>
+              <th>2019</th>
+              <th>2020</th>
+              <th>2021</th>
+              <th>2022</th>
+            </tr>
+            <tr>
+                <td style="height:30px">Castagne &#127792;</td>
+                <td>200 Kg.</td>
+                <td>160 Kg.</td>
+                <td>430 Kg.</td>
+                <td>290 Kg.</td>
+            </tr>
+            <tr>
+                <td style="height:30px">Pere &#127824;</td>
+                <td>90 Kg.</td>
+                <td>115 Kg.</td>
+                <td>105 Kg.</td>
+                <td>180 Kg.</td>
+            </tr>
+            <tr>
+                <td style="height:30px">Uova &#128035;</td>
+                <td>700</td>
+                <td>1220</td>
+                <td>950</td>
+                <td>1400</td>
+            </tr>
+            <tr>
+                <td style="height:30px">Carote &#129365;</td>
+                <td>300 kg.</td>
+                <td>320 kg.</td>
+                <td>210 kg.</td>
+                <td>650 kg.</td>
+            </tr>
+            <tr>
+                <td style="height:30px">Pomodori &#127813;</td>
+                <td>260 kg.</td>
+                <td>125 kg.</td>
+                <td>300 kg.</td>
+                <td>180 kg.</td>
+            </tr>
+            <tr>
+                <td style="height:30px">Uva &#127815;</td>
+                <td>700 kg.</td>
+                <td>900 kg.</td>
+                <td>700 kg.</td>
+                <td>830 kg.</td>
+            </tr>
+            <tr>
+                <td style="height:30px">Lattughe &#127793;</td>
+                <td>60 kg.</td>
+                <td>90 kg.</td>
+                <td>110 kg.</td>
+                <td>140 kg.</td>
+            </tr>            
+          </table>
+            <br>
+          <div class="flex">
+            <h2>FLEXBOX</h2>
+          </div> 
+          <br>
+          <div class="flexbox">
+            <img src="imm/flex-img/stella2.png" alt="stella">
+            <img src="imm/flex-img/margherite.png" alt="margherite">
+            <img src="imm/flex-img/prato.png" alt="prato">
+            <img src="imm/flex-img/asfalto.png" alt="asfalto">
+            <img src="imm/flex-img/campagna.png" alt="campagna">
+            <img src="imm/flex-img/mais.png" alt="mais">
+            <img src="imm/flex-img/fiori.png" alt="fiori">
+            <img src="imm/flex-img/prato2.png" alt="prato">
+          </div> 
+            <br>
+          <div class="colors">
+            <h2>GRADIENT</h2>
+          </div>
+            <br>
+          <div class="gradient mode-1"></div><br>
+          <div class="gradient mode-2"></div><br>
+          <div class="gradient mode-3"></div><br>
+          <div class="gradient mode-a"></div><br>
+          <div class="gradient mode-b"></div><br>
+          <div class="gradient mode-4"></div><br>
+          <div class="gradient mode-5"></div><br>
+          <div class="gradient mode-6"></div><br>
+          <div class="gradient mode-7"></div><br>
+          <div class="gradient mode-8"></div><br>
+          <div class="gradient mode-9"></div><br>
+          <div class="gradient mode-10"></div><br>
+          <div class="gradient mode-11"></div><br>
+          <div class="gradient mode-12"></div><br>
+          <div class="gradient mode-13"></div><br>
+          <div class="gradient mode-14"></div><br>
+          <div class="gradient mode-15"></div><br>
+            <div class="colors">
+              <h2>CONIC</h2>
+            </div>
+              <br>
+          <div class="conic">
+            <div class="example conic-1"></div>
+            <div class="example conic-2"></div>
+            <div class="example conic-3"></div>
+            <div class="example conic-4"></div>
+            <div class="example conic-5"></div>
+            <div class="example conic-6"></div>
+            <div class="example conic-7"></div>
+            <div class="example conic-8"></div>
+            <div class="example conic-9"></div>
+          </div>
+            <br>
+            <!-- AVATAR-->
+          <div class="img-over">
+            <h2>IMAGE OVERLAY SLIDE <span> (avatars built to: <a target="_blank" href="https://avatarmaker.com/"><i> AvatarMaker )</i></a></span> </h2>
+          </div> 
+            <br>
+          <div class="img-overlay">
+            <div>
+              <div class="cornice">
+                <img src="imm/avatar/avatar1.png" alt="Avatar" class="image-a">
+              <div class="over-image">
+              <div class="img22"><img src="imm/avatar/avatar3.png" alt="avatar"></div>
+              </div>
+              </div>
+            </div>
+            <div>
+              <div class="cornice">
+                <img src="imm/avatar/avatar2.png" alt="Avatar" class="image-a">
+              <div class="over-image">
+              <div class="img22"><img src="imm/avatar/avatar4.png" alt="avatar"></div>
+              </div>
+              </div>
+            </div>
+            <div>
+              <div class="cornice">
+                <img src="imm/avatar/avatar3.png" alt="Avatar" class="image-a">
+              <div class="over-image">
+              <div class="img22"><img src="imm/avatar/avatar1.png" alt="avatar"></div>
+              </div>
+              </div>
+            </div>
+            <div>
+              <div class="cornice">
+                <img src="imm/avatar/avatar4.png" alt="Avatar" class="image-a">
+              <div class="over-image">
+              <div class="img22"><img src="imm/avatar/avatar2.png" alt="avatar"></div>
+              </div>
+              </div>
+            </div>
+          </div> <!-- END AVATAR -->
+              <br>
+              <br>
+              <br>
+              <br>
+            <div class="formEmail">
+              <form action="https://formsubmit.co/ac31be1c48b1410696cca101faae8de9" method="POST"><!--https://formsubmit.co/remanomauro@gmail.com-->
+                <label for="email">Contact Me!</label><br>
+                <input type="email" name="email" placeholder="Email Address" required><br>
+                <input type="hidden" name="_next" value="https://thankyou.html/pages/thankyou.html">
+                <input type="hidden" name="_subject" value="New E-Mail!!!!">
+                <input type="text" name="message" placeholder="write your message here" required><br>                           
+                <button type="submit">Send</button>
+              </form>
+            </div>
+              <br>
+              <br>
+              <div class="text-footer">
+                <h2>FOOTER Grid-template</h2>
+              </div>
+                <br>
+              <div class="pie">
+                <footer>                  
+                  <div id="logo">
+                    <h4>M.M</h4>
+                    <h5>Frontend developer</h5>
+                    <div class="validator">
+                      <p>
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:70px;height:25px"
+                                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                alt="CSS Valido!" />
+                            </a>
+                        </p>
+                    </div>
+                  </div>
+                  <div id="content1">
+                    <h6>Tools</h6>
+                    <p><a href="http://colormind.io/" target="_blank"><i>Colormind</i></a></p>
+                    <p><a href="https://coolbackgrounds.io/" target="_blank"><i>Coolbackground</i></a></p>
+                    <p><a href="https://heropatterns.com/" target="_blank"><i>Heropattners</i></a></p>
+                    <p><a href="https://webgradients.com/" target="_blank"><i>Webgradients</i></a></p>
+                    <p><a href="https://www.gradientmagic.com/" target="_blank"><i>Gradientmagic</i></a></p>
+                    <p><a href="https://www.toptal.com/designers/subtlepatterns/" target="_blank"><i>Toptal</i></a></p>
+                    <p><a href="https://uigradients.com/#BetweenTheClouds" target="_blank"><i>Uigradients</i></a></p>
+                    <p><a href="https://cssgradient.io/" target="_blank"><i>Cssgradient</i></a></p>
+                    <p><a href="https://mycolor.space/" target="_blank"><i>Mycolor</i></a></p>
+                  </div>  
+                  <div id="content2">
+                    <h6>Services</h6>
+                    <p>Frontent development</p>
+                    <p>Logos</p>
+                    <p>Office papers</p>
+                    <p>Layout</p>
+                  </div>
+                  <div id="content3">
+                    <h6>About me</h6>
+                    <p>Examples <span> &#8628;</span></p>
+                    <p>Contact us</p>
+                    <p>Affiliates</p>
+                    <p>Resources</p>
+                  </div>
+                  <div id="content4"> 
+                    <h6>Other</h6>    
+                    <p>Forum</p>
+                    <p>Blog</p>
+                    <p>News</p>
+                    <p>Progress</p>
+                    <p>Social</p>
+                  </div>
+                  <div id="social">
+                    <a class="add" href="https://it.wikipedia.org/wiki/Facebook" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a class="add" href="https://www.linkedin.com/in/mauro-v-935280246/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a class="add" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"  aria-hidden="true"></i></a>
+                    <a class="add" href="https://www.freecodecamp.org/MioMauro" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+                    <a class="add" href="https://github.com/MioMauro" target="_blank"><i class="fa fa-github"  aria-hidden="true"></i></a>
+                    <a class="add" href="https://web.telegram.org/k/" target="_blank"><i class="fa fa-telegram"  aria-hidden="true"></i></a>
+                    <a class="add" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"  aria-hidden="true"></i></a>
+                    <a class="add" href="https://www.skype.com/it/" target="_blank"><i class="fa fa-skype"  aria-hidden="true"></i></a>
+                  </div>
+                </footer>
+              </div>
+              <br>
+      </main>
+  </div><!--!!-->
+  <script src="index.js"></script> 
+  <script src="https://use.fontawesome.com/6ca5fd3053.js"></script>  
+</body>
+</html>
+

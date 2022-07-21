@@ -1,0 +1,2136 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arima:wght@200&family=Bebas+Neue&family=Blaka&family=Fraunces:opsz,wght@9..144,700&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500;700&family=Noto+Serif&family=Titan+One&display=swap'); 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:5px 10px;
+    background-image: linear-gradient(161deg, rgba(121, 121, 121, 0.02) 0%, rgba(121, 121, 121, 0.02) 16.667%,rgba(193, 193, 193, 0.02) 16.667%, rgba(193, 193, 193, 0.02) 33.334%,rgba(177, 177, 177, 0.02) 33.334%, rgba(177, 177, 177, 0.02) 50.001000000000005%,rgba(5, 5, 5, 0.02) 50.001%, rgba(5, 5, 5, 0.02) 66.668%,rgba(229, 229, 229, 0.02) 66.668%, rgba(229, 229, 229, 0.02) 83.33500000000001%,rgba(211, 211, 211, 0.02) 83.335%, rgba(211, 211, 211, 0.02) 100.002%),linear-gradient(45deg, rgba(223, 223, 223, 0.02) 0%, rgba(223, 223, 223, 0.02) 14.286%,rgba(70, 70, 70, 0.02) 14.286%, rgba(70, 70, 70, 0.02) 28.572%,rgba(109, 109, 109, 0.02) 28.572%, rgba(109, 109, 109, 0.02) 42.858%,rgba(19, 19, 19, 0.02) 42.858%, rgba(19, 19, 19, 0.02) 57.144%,rgba(180, 180, 180, 0.02) 57.144%, rgba(180, 180, 180, 0.02) 71.42999999999999%,rgba(63, 63, 63, 0.02) 71.43%, rgba(63, 63, 63, 0.02) 85.71600000000001%,rgba(87, 87, 87, 0.02) 85.716%, rgba(87, 87, 87, 0.02) 100.002%),linear-gradient(337deg, rgba(142, 142, 142, 0.02) 0%, rgba(142, 142, 142, 0.02) 20%,rgba(164, 164, 164, 0.02) 20%, rgba(164, 164, 164, 0.02) 40%,rgba(203, 203, 203, 0.02) 40%, rgba(203, 203, 203, 0.02) 60%,rgba(228, 228, 228, 0.02) 60%, rgba(228, 228, 228, 0.02) 80%,rgba(54, 54, 54, 0.02) 80%, rgba(54, 54, 54, 0.02) 100%),linear-gradient(314deg, rgba(187, 187, 187, 0.02) 0%, rgba(187, 187, 187, 0.02) 12.5%,rgba(170, 170, 170, 0.02) 12.5%, rgba(170, 170, 170, 0.02) 25%,rgba(214, 214, 214, 0.02) 25%, rgba(214, 214, 214, 0.02) 37.5%,rgba(187, 187, 187, 0.02) 37.5%, rgba(187, 187, 187, 0.02) 50%,rgba(190, 190, 190, 0.02) 50%, rgba(190, 190, 190, 0.02) 62.5%,rgba(6, 6, 6, 0.02) 62.5%, rgba(6, 6, 6, 0.02) 75%,rgba(206, 206, 206, 0.02) 75%, rgba(206, 206, 206, 0.02) 87.5%,rgba(171, 171, 171, 0.02) 87.5%, rgba(171, 171, 171, 0.02) 100%),linear-gradient(300deg, rgba(243, 243, 243, 0.01) 0%, rgba(243, 243, 243, 0.01) 12.5%,rgba(209, 209, 209, 0.01) 12.5%, rgba(209, 209, 209, 0.01) 25%,rgba(179, 179, 179, 0.01) 25%, rgba(179, 179, 179, 0.01) 37.5%,rgba(3, 3, 3, 0.01) 37.5%, rgba(3, 3, 3, 0.01) 50%,rgba(211, 211, 211, 0.01) 50%, rgba(211, 211, 211, 0.01) 62.5%,rgba(151, 151, 151, 0.01) 62.5%, rgba(151, 151, 151, 0.01) 75%,rgba(16, 16, 16, 0.01) 75%, rgba(16, 16, 16, 0.01) 87.5%,rgba(242, 242, 242, 0.01) 87.5%, rgba(242, 242, 242, 0.01) 100%),linear-gradient(6deg, rgba(31, 31, 31, 0.02) 0%, rgba(31, 31, 31, 0.02) 20%,rgba(193, 193, 193, 0.02) 20%, rgba(193, 193, 193, 0.02) 40%,rgba(139, 139, 139, 0.02) 40%, rgba(139, 139, 139, 0.02) 60%,rgba(14, 14, 14, 0.02) 60%, rgba(14, 14, 14, 0.02) 80%,rgba(122, 122, 122, 0.02) 80%, rgba(122, 122, 122, 0.02) 100%),linear-gradient(279deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 14.286%,rgba(160, 160, 160, 0.02) 14.286%, rgba(160, 160, 160, 0.02) 28.572%,rgba(23, 23, 23, 0.02) 28.572%, rgba(23, 23, 23, 0.02) 42.858%,rgba(60, 60, 60, 0.02) 42.858%, rgba(60, 60, 60, 0.02) 57.144%,rgba(149, 149, 149, 0.02) 57.144%, rgba(149, 149, 149, 0.02) 71.42999999999999%,rgba(4, 4, 4, 0.02) 71.43%, rgba(4, 4, 4, 0.02) 85.71600000000001%,rgba(50, 50, 50, 0.02) 85.716%, rgba(50, 50, 50, 0.02) 100.002%),linear-gradient(109deg, rgba(124, 124, 124, 0.03) 0%, rgba(124, 124, 124, 0.03) 12.5%,rgba(61, 61, 61, 0.03) 12.5%, rgba(61, 61, 61, 0.03) 25%,rgba(187, 187, 187, 0.03) 25%, rgba(187, 187, 187, 0.03) 37.5%,rgba(207, 207, 207, 0.03) 37.5%, rgba(207, 207, 207, 0.03) 50%,rgba(206, 206, 206, 0.03) 50%, rgba(206, 206, 206, 0.03) 62.5%,rgba(118, 118, 118, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 75%,rgba(89, 89, 89, 0.03) 75%, rgba(89, 89, 89, 0.03) 87.5%,rgba(96, 96, 96, 0.03) 87.5%, rgba(96, 96, 96, 0.03) 100%),linear-gradient(329deg, rgba(35, 35, 35, 0.02) 0%, rgba(35, 35, 35, 0.02) 20%,rgba(246, 246, 246, 0.02) 20%, rgba(246, 246, 246, 0.02) 40%,rgba(118, 118, 118, 0.02) 40%, rgba(118, 118, 118, 0.02) 60%,rgba(245, 245, 245, 0.02) 60%, rgba(245, 245, 245, 0.02) 80%,rgba(140, 140, 140, 0.02) 80%, rgba(140, 140, 140, 0.02) 100%),linear-gradient(90deg, hsl(314,0%,31%),hsl(314,0%,31%));
+}
+
+h1{
+    margin:0;
+    padding-top: 1rem;
+}
+
+h2{
+    margin:0;
+    font-size: 1.3rem;
+}
+
+.portfolio{
+    width: 80%; /*Project width*/
+    margin: 0 auto;    
+}
+
+/*===*/
+header{
+    text-align: center; 
+    height: 70px; 
+}
+
+header .world{
+    font-size: 1rem;
+}
+/*====*/
+.icon{
+    display: none;       
+    position: absolute;
+    padding-top: 10px;
+}
+/* CLOCK */
+#clock{
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;    
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
+    border-style: double;   
+    font-size: 20px;    
+    color: rgb(4, 82, 34);
+    background-image: linear-gradient( #0ae967, #096609);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border-radius: 10px;
+}
+    
+#clock:hover{
+    transform: scale(1.10);
+}
+    
+#clock:active{  
+    background-color: rgb(70, 235, 144);
+}
+/*===*/
+.nav-bar{
+    width: 100%;
+}
+
+#navbar{  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar .links{ 
+    list-style-type: none;
+    overflow: hidden; 
+    padding: 1rem 0;   
+}
+
+#navbar .links li{   
+    display: inline-block;
+    padding: 0 3rem;
+}
+
+#navbar .links li a{
+    font-size: 1.3rem;    
+    color: rgb(17, 16, 16);   
+    text-decoration: none;
+}
+
+#navbar .links li a:hover{    
+    color: chartreuse; 
+}
+/*===*/
+/*DROP GENERAL*/
+#navbar .general-drop{
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 170px;   
+    z-index: 2;
+    border-radius: 5px;
+}
+
+#navbar .general-drop a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;    
+}
+
+#navbar .general-drop a span{
+    margin-left: 15px;   
+}
+
+#navbar .general-drop a:hover{
+    background-color: #b4acac;
+}
+
+#navbar .dropdown-general:hover .general-drop{
+    display: block;
+}
+
+/*DROP WORK*/
+#navbar .work-drop{
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;    
+    width: 190px;    
+    z-index: 2;
+    border-radius: 5px;
+}
+
+#navbar .work-drop a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#navbar .work-drop a span{
+    margin-left: 15px;   
+}
+
+#navbar .work-drop a:hover{
+    background-color: #b4acac;
+}
+
+#navbar .dropdown-work:hover .work-drop{
+    display: block;
+}
+/*DROP CODE*/
+#navbar .code-drop{
+    overflow: hidden; 
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;    
+    width: 160px;    
+    z-index: 2;
+    border-radius: 5px;   
+}
+
+#navbar .code-drop a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#navbar .code-drop a > span{
+    margin-left: 15px;
+    width: 14px;   
+}
+
+#navbar .code-drop a:hover{
+    background-color: #b4acac;
+}
+
+#navbar .dropdown-code:hover .code-drop{
+    display: block;
+}
+/*DROP TARGET*/
+#navbar .target-drop{
+    overflow: hidden; 
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;    
+    width: 155px;    
+    z-index: 2;
+    border-radius: 5px;  
+}
+/*===*/
+#navbar .dropmenu-target:hover .target-drop{
+    display: block;
+}
+/*===*/
+#navbar .targets-drop ul{
+    display: block;
+}
+
+#navbar .target-drop ul a{
+    display: block; 
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+#navbar .target-drop ul a:hover{ 
+    background-color: #b4acac;
+}
+
+#navbar .target-drop img{
+    width: 40%;
+    margin-top: 0.5rem; 
+    margin-left: 1.5rem;  
+    margin-bottom: 0.7rem;
+}
+/* TOOLS */
+#navbar .tools-drop{
+    overflow: hidden; 
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;    
+    width: 160px;       
+    z-index: 2;
+    border-radius: 5px;
+}
+/*===*/
+#navbar .dropmenu-tools:hover .tools-drop{
+    display: block;
+}
+/*===*/
+#navbar .tools-drop ul{
+    display: block;
+}
+
+#navbar .tools-drop ul a{
+    display: block; 
+    padding-left: 0.5rem;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+#navbar .tools-drop ul a:hover{ 
+    background-color: #b4acac;
+}
+
+#navbar .tools-drop ul img{
+    width: 40%;
+    margin-top: 0.5rem; 
+    margin-left: 1.3rem;  
+    margin-bottom: 0.7rem;
+}
+/*===*/
+main{
+    width: 100%;
+}
+
+main .maincontainer{    
+    position: relative;
+    border-radius: 5px;    
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    background-image: url(imm/BackCont.png);
+}
+
+main .maincontainer img{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 780px;
+    height: 380px;
+}
+
+/* INTEREST */
+
+.maincontainer .modal{
+    display: none; /* Hidden by default */
+    margin: 0 auto;
+    z-index: 1; /* Sit on top */       
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content-interest{
+    width: 800px;    
+    height: 400px;
+}
+
+/* SLIDE-SHOW */
+
+.mySlides{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;   
+    margin: 0 auto;
+}
+
+/* Next & previous buttons */
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext{
+    background: #000;
+    border-radius: 5px;
+    color: #04fc42;
+    font-size: 12px;
+    padding: 8px 8px;
+    position: absolute;
+    top: 15px;
+    margin-left: 15px;
+    z-index: 1;
+    opacity: 0.6;
+    overflow: hidden;
+}
+/* Fading animation */
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+.close{    
+    color: #aaaaaa;    
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+.close:hover,
+.close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* HOBBY */
+
+.maincontainer .modal-content-hobby{    
+    margin: auto;
+    width: 100%;
+    height: 100%;      
+}
+
+.modal-content-hobby .closeH{
+    color: #aaaaaa;    
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 730px;
+}
+
+.closeH:hover,
+.closeH:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hobby{  
+    width: 100%;
+    height: 100%;    
+}
+
+.modal-content-hobby .hobby figure{
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content-hobby .hobby figure img{
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 97.5%;
+    height: 96%;
+}
+
+.modal-content-hobby figcaption{
+    color: white;
+    margin-top: -2rem;
+    margin-left: 2rem;
+}
+
+
+/* EDUCATION */
+.maincontainer .modal-content-education{    
+    background-image: url(imm/education/Manzoni.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #fefefe;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content-education .closeE{
+    color: #181717;    
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 730px;
+}
+
+.closeE:hover,
+.closeE:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.maincontainer .modal-content-education .manzoni{
+    color: rgb(252, 252, 252);
+    position: absolute;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5rem 3rem;    
+}
+
+.maincontainer .modal-content-education address p a{
+    text-decoration: none;
+    color: rgb(248, 252, 4);
+}
+
+.maincontainer .modal-content-education address p a:hover{
+    color: rgb(222, 245, 231);
+}
+
+.modal-content-education .frame{
+    overflow: hidden;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-top: 130px;
+    position: absolute;
+}
+/*== DEVELOPER ==*/
+.maincontainer .modal-content-developer{
+    background-color: #776c6c;  
+    width: 100%;
+}
+
+.modal-content-developer .some-work{ /*only h2*/    
+    color: rgb(80, 56, 29);
+    font-size: 2rem;
+    padding: 1rem;
+    margin-left: 2rem;
+}
+
+.modal-content-developer h3{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(51, 40, 28);
+}
+
+.modal-content-developer .ul-works{    /*only UL*/ 
+    list-style: none;
+    padding: 0.5rem 2rem;
+    
+}
+
+.modal-content-developer .ul-works li{  /*only li*/     
+    padding: 0.1rem 0;
+}
+
+.modal-content-developer .ul-works li a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.modal-content-developer .ul-works li a:hover{
+    color: rgb(9, 247, 48);
+}
+
+.modal-content-developer .image-icons8 img{ /*Immagine icons8*/
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -420px;
+    width: 50%;
+    height: 50%;
+}
+
+.modal-content-developer .closeD{       
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 740px;
+}
+
+.closeD:hover,
+.closeD:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*== MOULD-MAKER ==*/
+.maincontainer .modal{
+    background-color: #333;
+}
+
+.maincontainer .modal .modal-container{
+width: 100%;
+}
+
+.maincontainer .modal .modal-container .modal-content-mould-maker{
+    width: 100%;
+}
+
+.modal-content-mould-maker .mould{ /*Only h2*/
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.modal-container .modal-content-mould-maker .first-img{
+width: 97%;
+}
+
+.modal-container .modal-content-mould-maker .second-img{
+    width: 97%;
+}
+
+.modal-container .modal-content-mould-maker h3{
+    text-decoration: underline;
+    color:white;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.modal-container .modal-content-mould-maker h4{
+    color:white;
+    padding: 2rem;
+}
+
+.modal-content-mould-maker .closeM{
+    color: #aaaaaa;    
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+
+.closeM:hover,
+.closeM:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*== FARMER ==*/
+.maincontainer .modal-content-farmer{
+    background-image: url(imm/farmer/farmer-img.png);
+    background-size: cover;
+    border-style: dotted;
+    border-width: thick;
+    border-color: #33cc33;
+    width: 100%;
+    height: 100%;   
+}
+
+.modal-content-farmer h2{
+    font-size: 2rem;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.modal-content-farmer h3{
+    font-size: 16px;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+    font-family: 'Libre Baskerville', serif; 
+    text-decoration: underline;  
+}
+
+.modal-content-farmer h4{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.modal-content-farmer .img-farmer-2 img{
+    position: absolute; 
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+.modal-content-farmer .img-farmer-3 img{ 
+    position: absolute;   
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 660px;
+}
+
+.modal-content-farmer .closeF{
+    color: #aaaaaa;    
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 740px;
+}
+
+.closeF:hover,
+.closeF:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*== BUTCHER ==*/
+.maincontainer .modal-content-butcher{
+    background-color: #f5c3c3;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content-butcher .mad-butch{
+    width: 100%;
+}
+
+.modal-content-butcher .mad-butch img{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 460px;
+    width: 35%;
+    height: 70%;
+}
+
+.modal-content-butcher header h2{
+    font-size: 2rem;
+    padding: 2rem;
+    color: red;
+}
+
+.modal-content-butcher p{
+    font-size: 1.1rem;
+    padding-left: 2rem;
+    margin: 2rem 0;    
+}
+
+.modal-content-butcher .closeB{
+    color: #aaaaaa;    
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+
+.closeB:hover,
+.closeB:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*== HTML ==*/
+.maincontainer .modal-content-html{
+    background-color: #fefefe;
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .modal-content-html h2{
+    padding: 2rem 0 0.5rem 2rem;
+}
+
+.maincontainer .modal-content-html h3{
+    padding: 0 0 0.5rem 2rem;
+}
+
+.maincontainer .modal-content-html img{
+    margin-left: 120px;
+    width: 70%;
+    height: 70%;    
+}
+
+.modal-content-html .closeHt{
+    color: #aaaaaa;    
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+
+.closeHt:hover,
+.closeHt:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*== CSS ==*/
+.maincontainer .modal-content-css{
+    background-color: #fefefe;
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .modal-content-css h2{
+    padding: 2rem 0 0.5rem 2rem;
+}
+
+.maincontainer .modal-content-css h3{
+    padding: 0 0 0.5rem 2rem;
+}
+
+.maincontainer .modal-content-css img{
+    margin-left: 120px;
+    width: 70%;
+    height: 70%;
+}
+
+.modal-content-css .closeC{
+    color: #aaaaaa;    
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+
+.closeC:hover,
+.closeC:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*== JS ==*/
+.maincontainer .modal-content-js{
+    background-color: #edf585;
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer .modal-content-js h2{
+    font-size: 30px;
+    color: yellow;
+    text-shadow:2px 2px #000;
+    padding: 2rem 0 0.5rem 2rem;
+}
+
+.maincontainer .modal-content-js h3{
+    padding: 0 0 0.5rem 2rem;
+}
+
+.maincontainer .modal-content-js h4{
+    text-align: center;
+}
+
+.maincontainer .modal-content-js img{
+    margin-top: 20px;
+    margin-left: 275px;
+    width: 30%;
+    height: 60%;
+}
+
+.modal-content-js .closeJ{
+    color: #aaaaaa;    
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+
+.closeJ:hover,
+.closeJ:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*== EXPLORE ===*/
+main .explore{ /* Div header */
+    width: 100%;
+    height: 28px;
+}
+
+main .explore .explore-btn h2{
+    margin: 0;
+    font-family: 'Libre Baskerville', serif; 
+}
+/* BUTTONS */
+main .main-buttons{ /* Div Buttons*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* SEARCH */
+main .main-buttons .search-div{      
+    border-radius: 5px;     
+    width: 240px;
+    height: 30px;
+}
+
+main .main-buttons .search-div form{
+    padding: 3px 0;      
+}
+
+main .main-buttons .search-div input[type=text]{
+    padding: 2px;
+    font-size: 14px;
+    border-radius: 3px; 
+}
+
+main .main-buttons .search-div .btn-search{
+    font-size: 16px;
+    cursor: pointer;    
+    margin-left: 5px;
+    padding: 2px;
+}
+
+main .main-buttons .search-div .btn-search:hover{
+    background: #ccc;
+}
+/* BTN */
+main .main-buttons .btn{
+    font-family: 'Libre Baskerville', serif;
+    border: #98dda9;  
+    color: #333;
+    padding: 4px 5px;
+    border-radius: 5px;    
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    border-style: outset;
+}
+
+main .main-buttons .btn a{
+    text-decoration: none;
+}
+/*main .main-buttons .btn a:visited{ 
+    color: fuchsia;
+}*/
+main .main-buttons .btn:active{    
+    box-shadow:  3px 3px rgb(54, 53, 53);
+    transform: translateX(-4px);
+}
+
+/* Hover Btn */
+main .main-buttons .btn-1:hover{
+    background-color: rgb(245, 85, 63);
+    color: cornsilk;
+}
+
+main .main-buttons .btn-1 a:hover{    
+    color: cornsilk;
+}
+
+main .main-buttons .btn-1 a{    
+    color: #333;
+}
+/*===*/
+main .main-buttons .btn-2:hover{
+    background-color: rgb(58, 170, 245);
+    color: cornsilk;
+}
+
+main .main-buttons .btn-2 a:hover{    
+    color: cornsilk;
+}
+
+main .main-buttons .btn-2 a{    
+    color: #333;
+}
+/*===*/
+main .main-buttons .btn-3:hover{
+    background-color: gold;
+    color: cornsilk;
+}
+
+main .main-buttons .btn-3 a:hover{    
+    color: cornsilk;
+}
+
+main .main-buttons .btn-3 a{    
+    color: #333;
+}
+/* Button span Arrow */
+main .main-buttons .btn-4:hover{
+    background-color: rgb(61, 243, 137);
+    color: cornsilk;
+}
+
+main .main-buttons .btn-4 span{    
+    transition: 0.5s;
+}
+
+main .main-buttons .btn-4 span:after{    
+    content: ' ';
+    opacity: 0;
+    transition: 0.5s;
+}
+/*===*/
+main .main-buttons .btn-5:hover{
+    background-color: rgb(92, 91, 89);
+    color: cornsilk;
+}
+
+main .main-buttons .btn-5 a:hover{    
+    color: cornsilk;
+}
+
+main .main-buttons .btn-5 a{    
+    color: #333;
+}
+/*===*/
+main .main-buttons .btn-6:hover{
+    background-color: rgb(123, 141, 243);
+    color: cornsilk;
+}
+
+main .main-buttons .btn-6 a:hover{    
+    color: cornsilk;
+}
+
+main .main-buttons .btn-6 a{    
+    color: #333;
+}
+/* GRID */
+main .span-grid{
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 80%;
+} 
+
+main .span-grid h2{
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+/*===*/
+main .grid{
+    border: 1px solid black;
+    display: grid;
+    margin: 0 auto;
+    width: 80%;    
+    box-shadow: 3px 3px 3px 3px rgb(64, 73, 77);
+    background-color: #554f4f;    
+    grid-row-gap:5px;
+    grid-column-gap:5px;
+    grid-template-columns: repeat(20, auto);
+    grid-template-rows: repeat(10, auto);
+    padding: 5px 5px 0px 5px;
+}
+
+.little-box{ 
+    text-align: center; 
+    color: rgb(252, 247, 247); 
+    border: 1px solid white;
+    box-shadow: 2px 2px black;
+}
+
+.little-box:nth-child(2n){
+    color: darkblue;
+    background: rgb(4, 243, 143);
+}
+
+.little-box:nth-child(3n){
+    color: rgb(141, 52, 52);
+    background: rgb(199, 243, 4);
+}
+
+.little-box:nth-child(6n){
+    background: cornflowerblue;
+}
+
+.little-box:nth-child(7n){
+    background: rgb(243, 159, 4);
+}
+
+.little-box:nth-child(11n){
+    background: rgb(184, 3, 190);
+}
+
+.box2{ /*only the first*/
+    grid-column-start: 2;
+    grid-column-end: 5;    
+}
+.box5{
+    grid-row-end: span 2;
+}
+.box5 p{
+    padding-top: 1rem;
+}
+.box7{
+    grid-column-end: span 4;
+}
+.box8{
+    grid-column-end: span 2;
+}
+.box9{
+    grid-column-end: span 3;
+    grid-row-end: span 3;
+}
+.box9 p{
+    padding-top: 2rem;
+}
+.box13{
+    grid-column-end: span 2; 
+    grid-row-end: span 2;
+}
+.box13 p{
+    padding-top: 1rem;
+}
+.box15{
+    grid-column-end: span 2;     
+}
+.box18{
+    grid-column-end: span 3;     
+}
+.box19{
+    grid-column-end: span 2;     
+}
+.box21{
+    grid-column-end: span 2; 
+    grid-row-end: span 2;    
+}
+.box21 p{
+    padding-top: 1rem;   
+}
+.box25{
+    grid-column-end: span 4; 
+}
+.box28{
+    grid-column-end: span 3; 
+}
+.box31{
+    grid-column-end: span 2; 
+}
+.box33{
+    grid-column-end: span 2; 
+    grid-row-end: span 2
+}
+.box33 p{
+    padding-top: 1rem;
+    color: yellow;
+}
+.box36{
+    grid-column-end: span 4; 
+    grid-row-end: span 2;
+}
+.box36 p{
+    padding-top: 1rem;
+}
+.box39{    
+    grid-row-end: span 4;
+}
+.box39 p{    
+    padding-top: 3rem;
+}
+.box40{    
+    grid-column-end: span 2;
+}
+.box42{    
+    grid-column-end: span 4;
+}
+.box43{    
+    grid-column-end: span 3;
+}
+.box49{    
+    grid-column-end: span 5;
+}
+.box50{    
+    grid-column-end: span 8;
+}
+.box51{    
+    grid-column-end: span 3;
+}
+.box53{    
+    grid-row-end: span 4;    
+}
+.box53 p{    
+    padding-top: 2rem;    
+}
+.box54{    
+    grid-column-end: span 4;
+}
+.box55{    
+    grid-column-end: span 2;
+}
+.box56{    
+    grid-column-end: span 6;
+    grid-row-end: span 3;
+}
+.box56 p{    
+    padding-top: 1rem;
+}
+.box57{    
+    grid-column-end: span 6;
+}
+.box58{    
+    grid-column-end: span 6;
+}
+.box59{    
+    grid-row-end: span 2;
+}
+.box60{    
+    grid-row-end: span 2;
+}
+.box61{    
+    grid-column-end: span 5;
+    grid-row-end: span 2;
+}
+.box62{    
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+.box63{  
+    grid-row-end: span 2;
+}
+.box64{  
+    grid-column-end: span 3;
+    grid-row-end: span 2;
+}
+/*===*/
+main .table-int{    
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+    width: 80%;
+}
+
+main .table-int h2{
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+/*===*/
+table{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 2px 2px #776c6c;
+}
+
+caption{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+th, td {
+    background-color: #f3eaea;
+    border-style: outset;
+}
+/*===*/
+main .flex{    
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+    width: 80%;
+}
+
+main .flex h2{
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+main .flexbox{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .flexbox img{
+    border-radius: 3px;
+    margin: 3px;
+    width: 145px;
+    height: auto;
+}
+
+main .flexbox img:hover{
+    transform: scale(2);
+    transition: 0.5s;  
+}
+/*===*/
+main .colors{    
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+    width: 80%;
+}
+
+main .colors h2{
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+main .gradient{
+    cursor: pointer;    
+    margin: 0 auto;
+    width: 80%; 
+    border-radius: 10px;   
+}
+
+main .gradient h3{
+    text-align: center;    
+}
+/*===*/
+main .mode-1{
+    height: 30px;
+    background: linear-gradient(yellow, green, red, blue);
+}
+main .mode-1:hover{
+    background: linear-gradient(to left, yellow, green, red, blue);
+}
+/*===*/
+main .mode-2{
+    height: 30px;
+    background: linear-gradient(22.5deg, yellow, white, black, green, red, blue);
+}
+main .mode-2:hover{
+    height: 30px;
+    background: linear-gradient(-22.5deg, yellow, white, black, green, red, blue);
+}
+/*===*/
+main .mode-3{
+    height: 30px;
+    background: linear-gradient(rgb(219, 219, 93)75%, rgb(123, 216, 123)25%);
+}
+main .mode-3:hover{
+    background: linear-gradient(to left, rgb(219, 219, 93)25%, rgb(123, 216, 123)75%);
+}
+/*===*/
+main .mode-a{
+    height: 30px;
+    background: repeating-linear-gradient(rgb(235, 141, 18), rgb(123, 216, 123) 50px), rgb(17, 17, 17) 20px;
+}
+main .mode-a:hover{
+    background: repeating-linear-gradient(to right, rgb(235, 141, 18), rgb(123, 216, 123)50px), rgb(17, 17, 17) 60px;
+}
+/*===*/
+main .mode-b{
+    height: 30px;
+    background: repeating-linear-gradient(45deg, black, red 50px, blue 60px);
+}
+main .mode-b:hover{
+    background: repeating-linear-gradient(to right, black, red 50px, blue 60px);
+}
+/*===*/
+main .mode-4{
+    height: 50px;
+    background: radial-gradient(white, rgb(212, 162, 162), green, black, green, rgb(212, 162, 162), white);
+}
+main .mode-4:hover{
+    height: 50px;
+    background: radial-gradient(rgb(73, 63, 63), rgb(218, 211, 211), yellow, rgb(240, 162, 162), rgb(168, 224, 168), rgb(153, 111, 111), rgb(212, 212, 130), rgb(73, 63, 63));
+}
+/*===*/
+main .mode-5{
+    height: 50px;
+    background: repeating-linear-gradient(to right, yellow, purple 15px);
+}
+main .mode-5:hover{
+    background: repeating-linear-gradient(yellow, purple 10px);
+}
+/*===*/
+main .mode-6{
+    height: 50px;
+    background-image: repeating-linear-gradient(black, white 10px);
+    background-repeat: repeat;
+}
+main .mode-6:hover{
+    background-image: repeating-linear-gradient(22.5deg, black, white 10px);
+    background-repeat: repeat;
+}
+/*===*/
+main .mode-7{
+    height: 50px;
+    background: repeating-linear-gradient(hotpink 50px, indianred 60px, darksalmon 80px);
+}
+main .mode-7:hover{
+    background: repeating-linear-gradient(to left, hotpink 50px, indianred 60px, darksalmon 80px);
+}
+/*===*/
+main .mode-8{
+    border: 1px solid rgb(163, 157, 157);
+    height: 50px;
+    background: linear-gradient(to left, rgb(85, 84, 84), transparent);
+}
+main .mode-8:hover{
+    background: linear-gradient(to right, grey, transparent);}
+/*===*/
+main .mode-9{
+    height: 50px;
+    background: linear-gradient(45deg, rgb(38, 0, 255), transparent),
+    rgb(222, 110, 255)
+    repeating-linear-gradient(45deg, rgb(166, 0, 255) 0%, rgb(166, 0, 255) 5%, transparent 5%, transparent 10%);
+}
+main .mode-9:hover{
+    background: linear-gradient(45deg, rgb(166, 255, 0), transparent),    
+    repeating-linear-gradient(-45deg, rgb(166, 0, 255) 0%, rgb(166, 0, 255) 5%, transparent 5%, transparent 10%);
+}
+/*===*/
+main .mode-10{
+    height: 50px;
+    background: linear-gradient(45deg, rgb(255, 136, 0), transparent),    
+    repeating-linear-gradient(45deg, rgb(199, 0, 255) 0%, rgb(199, 0, 255) 5%, transparent 5%, transparent 10%),
+    rgb(200, 128, 223) repeating-linear-gradient(-45deg, rgba(199, 0, 255, 0.5) 0%, rgba(199, 0, 255, 0.5) 5%, transparent 5%, transparent 10%);
+}
+main .mode-10:hover{
+    background: linear-gradient(45deg, rgb(208, 255, 0), transparent),    
+    repeating-linear-gradient(45deg, rgb(183, 0, 0) 0%, rgb(183, 0, 0) 5%, transparent 5%, transparent 10%),
+    rgb(216, 118, 255) repeating-linear-gradient(-45deg, rgba(183, 0, 0, 1) 0%, rgba(183, 0, 0, 1) 5%, transparent 5%, transparent 10%);
+}
+/*===*/
+main .mode-11{
+    height: 50px;
+    background: linear-gradient(45deg, rgb(132, 133, 131), transparent),    
+    repeating-linear-gradient(45deg, rgb(183, 0, 0) 0%, rgb(183, 0, 0) 5%, transparent 5%, transparent 10%, rgb(183, 0, 0) 10%, rgb(183, 0, 0) 12%, transparent 12%, transparent 14% ),
+    rgb(216, 118, 255) repeating-linear-gradient(-45deg, rgba(183, 0, 0, 1) 0%, rgba(183, 0, 0, 1) 5%, transparent 5%, transparent 10%);
+}
+main .mode-11:hover{
+    background: linear-gradient(1800deg, rgb(132, 133, 131), transparent),    
+    repeating-linear-gradient(180deg, rgb(183, 0, 0) 0%, rgb(183, 0, 0) 5%, transparent 5%, transparent 10%, rgb(183, 0, 0) 10%, rgb(183, 0, 0) 12%, transparent 12%, transparent 14% ),
+    rgb(216, 118, 255) repeating-linear-gradient(-45deg, rgba(183, 0, 0, 1) 0%, rgba(183, 0, 0, 1) 5%, transparent 5%, transparent 10%);
+}
+/*===*/
+main .mode-12{
+    height: 80px;
+    background: linear-gradient(45deg, rgba(255, 0, 242, 0.5), transparent),    
+    repeating-linear-gradient(45deg, rgba(183, 0, 0, 0.5) 0%, rgba(183, 0, 0, 0.5) 5%, transparent 5%, transparent 10%, rgba(183, 0, 0, 0.5) 10%, rgba(183, 0, 0, 0.5) 12%, transparent 12%, transparent 14% ),
+    rgba(216, 118, 255, 0.5) repeating-linear-gradient(-45deg, rgba(183, 0, 0, 0.5) 0%, rgba(183, 0, 0, 0.5) 5%, transparent 5%, transparent 10%);
+}
+main .mode-12:hover{
+    background: linear-gradient(45deg, rgba(255, 136, 0, 0.2), transparent),    
+    repeating-linear-gradient(45deg, rgba(183, 0, 0, 0.2) 0%, rgba(183, 0, 0, 0.2) 5%, transparent 5%, transparent 10%, rgba(183, 0, 0, 0.6) 10%, rgba(183, 0, 0, 0.2) 12%, transparent 12%, transparent 14% ),
+    rgba(216, 118, 255, 0.2) repeating-linear-gradient(-45deg, rgba(183, 0, 0, 0.2) 0%, rgba(183, 0, 0, 0.2) 5%, transparent 5%, transparent 10%);
+}
+/*===*/
+main .mode-13{
+    height: 80px;
+    background: linear-gradient(45deg, rgba(255, 136, 0, 0.5), transparent),    
+    repeating-linear-gradient(45deg, rgba(183, 0, 0, 0.5) 10px, rgba(183, 0, 0, 0.5) 15px, transparent 5%, transparent 10%, rgba(183, 0, 0, 0.5) 8px, rgba(183, 0, 0, 0.5) 10px, transparent 12%, transparent 14% ),
+    rgba(216, 118, 255, 0.5) repeating-linear-gradient(-45deg, rgba(183, 0, 0, 0.5) 7px, rgba(183, 0, 0, 0.5) 9px, transparent 5%, transparent 10%);
+}
+main .mode-13:hover{
+    background: linear-gradient(0deg, rgba(255, 136, 0, 0.2), transparent),    
+    repeating-linear-gradient(0deg, rgba(183, 0, 0, 0.2) 0%, rgba(183, 0, 0, 0.2) 5%, transparent 5%, transparent 10%, rgba(183, 0, 0, 0.6) 10%, rgba(183, 0, 0, 0.2) 12%, transparent 12%, transparent 14% ),
+    rgba(1, 86, 107, 0.2) repeating-linear-gradient(-90deg, rgba(183, 0, 0, 0.2) 0%, rgba(183, 0, 0, 0.2) 5%, transparent 5%, transparent 10%);
+}
+/*===*/
+main .mode-14{
+    height: 50px;
+    background-image: radial-gradient(circle at 67% 83%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 1%,transparent 1%, transparent 5%,transparent 5%, transparent 100%),radial-gradient(circle at 24% 80%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 27%,transparent 27%, transparent 63%,transparent 63%, transparent 100%),radial-gradient(circle at 23% 5%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 26%,transparent 26%, transparent 82%,transparent 82%, transparent 100%),radial-gradient(circle at 21% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 35%,transparent 35%, transparent 45%,transparent 45%, transparent 100%),radial-gradient(circle at 10% 11%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 21%,transparent 21%, transparent 81%,transparent 81%, transparent 100%),radial-gradient(circle at 19% 61%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 20%,transparent 20%, transparent 61%,transparent 61%, transparent 100%),radial-gradient(circle at 13% 77%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 63%,transparent 63%, transparent 72%,transparent 72%, transparent 100%),radial-gradient(circle at 30% 93%, hsla(317,0%,96%,0.05) 0%, hsla(317,0%,96%,0.05) 33%,transparent 33%, transparent 82%,transparent 82%, transparent 100%),linear-gradient(90deg, rgb(22, 176, 207),rgb(103, 7, 215));
+}
+main .mode-14:hover{
+    background-image: linear-gradient(246deg, rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%,rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%,rgba(189, 189, 189, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 99.89999999999999%),linear-gradient(81deg, rgba(126, 126, 126, 0.05) 0%, rgba(126, 126, 126, 0.05) 33.3%,rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%,rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.89999999999999%),linear-gradient(14deg, rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.08) 33.3%,rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%,rgba(199, 199, 199, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 99.89999999999999%),linear-gradient(323deg, rgba(82, 82, 82, 0.06) 0%, rgba(82, 82, 82, 0.06) 33.3%,rgba(179, 179, 179, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 66.6%,rgba(212, 212, 212, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 99.89999999999999%),linear-gradient(32deg, rgba(70, 70, 70, 0.02) 0%, rgba(70, 70, 70, 0.02) 33.3%,rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%,rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.89999999999999%),linear-gradient(38deg, rgba(129, 129, 129, 0.09) 0%, rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(63deg, rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%,rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),linear-gradient(227deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(103deg, rgba(247, 247, 247, 0.07) 0%, rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,rgba(208, 208, 208, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 99%),linear-gradient(0deg, #0b91d7,#6efc29);
+}
+/*===*/
+main .mode-15{
+    height: 50px;
+    background-image: repeating-linear-gradient(90deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(0deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 60px),repeating-linear-gradient(0deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 10px),repeating-linear-gradient(90deg, hsla(57,0%,42%,0.09) 0px, hsla(57,0%,42%,0.09) 1px,transparent 1px, transparent 10px),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20));
+}
+main .mode-15:hover{
+    background-image: linear-gradient(135deg, rgba(107, 107, 107,0.06) 0%, rgba(107, 107, 107,0.06) 50%,rgba(202, 202, 202,0.06) 50%, rgba(202, 202, 202,0.06) 100%),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20)); background-size: 30px 30px;
+}
+/*===*/
+main .conic{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .conic .example{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+main .conic .conic-1{
+    background-image: conic-gradient(red, yellow, green);
+}
+main .conic .conic-2{
+    background-image: conic-gradient(red, yellow, green, blue, black);
+}
+main .conic .conic-3{
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+}
+main .conic .conic-4{
+    background-image: conic-gradient(red, yellow, green, blue, black);
+    border-radius: 50%;
+}
+main .conic .conic-5{
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+}
+main .conic .conic-6{
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+}
+main .conic .conic-7{
+    background-image: conic-gradient(at 60% 45%, red, yellow, green);
+}
+main .conic .conic-8{
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+    border-radius: 50%;
+}
+main .conic .conic-9{
+    background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+    border-radius: 50%;
+}
+/* === */
+main .img-over{    
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+    width: 80%;
+}
+
+main .img-over h2{
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+main .img-overlay{ /* Flexbox-slide */
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .img-over span{
+    font-size: 14px;
+}
+/*===*/
+.cornice {
+    position: relative;
+    width: 200px;
+}
+    
+.image-a {
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+.over-image {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;    
+    overflow: hidden;
+    width: 200px;
+    height: 0;
+    transition: .5s ease;
+}
+    
+.cornice:hover .over-image {
+    bottom: 0;
+    height: 200px;
+}
+    
+.img22 {
+    width:200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+/*===*/
+.formEmail{ 
+    margin: 0 auto;   
+    box-shadow:3px 3px 4px 4px  #113311;
+    width: 450px;
+    height: 120px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0.5rem;
+    background-image: radial-gradient( #333333, #807a7a);
+    color: #6de771;
+    border-style: double;
+    border-radius: 10px;
+}
+
+.formEmail input{
+    padding: 0 5rem;
+    font-size: 16px;
+    margin: 0.1rem 0;
+    background-color: #ddd9d9;
+}
+
+.formEmail button{
+    background-color: #000;
+    margin-top: 0.2rem;
+    padding: 0.2rem 10rem;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: #fefefe;
+    cursor: pointer;
+}
+/* === */
+main .text-footer{
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+    width: 80%;
+}
+
+main .text-footer h2{
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+main .pie{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:"logo content1 content2 content3 content4"
+    "logo content1 social social social";
+    font-family:'Libre Baskerville', serif;                           
+}
+
+footer p, a{
+    text-decoration: none;
+    color: #333;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;    
+}
+
+footer a:hover{
+    background: slategray;
+}
+
+footer .add:hover{
+    background: none;
+}
+
+footer p:hover{
+    background: slategray;
+}
+
+#logo{
+    grid-area: logo; 
+    color: #333333;
+    height: 100%;   
+}
+
+#logo h4{
+font-size: 2rem;
+padding-top: 1rem;
+}
+
+#logo h5{
+    font-size: 0.6rem;
+    padding-left: 1rem;
+}
+
+.validator{
+    margin-top: 2rem;
+}
+
+footer h6{    
+    color: #333;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}
+
+#content1{
+    grid-area: content1;
+}
+#content2{
+    grid-area: content2;
+}
+#content3{
+    grid-area: content3;
+}
+#content4{
+    grid-area: content4;
+}
+#social{    
+    grid-area: social;
+}
+
+#social .fa{
+    cursor: pointer;
+    color: #b4acac;
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#social .fa:hover{
+    color: #000;
+}
+
+/*===*/
+
+@media all and (max-width:1200px){
+    .portfolio{
+    width: 95%;
+}
+
+#navbar .links li{  
+    padding: 0 2rem;
+}
+}
+/*===========================*/
+@media all and (max-width:1024px){ 
+    .portfolio{
+    width: 100%;
+}
+
+#navbar .links li{   
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+#navbar .links li a{
+    font-size: 1rem;
+}
+
+#navbar .tools-drop{
+    margin-left: -35px;
+} 
+
+main .grid{
+    width: 95%;
+}
+
+table{
+    width: 95%;
+}
+
+#logo h4{
+    font-size: 1rem;
+    }
+}
+/*===*/
+@media all and (max-width:768px){
+
+#navbar .links li{  
+    padding: 0 1rem;        
+}  
+
+main .maincontainer{
+    width: 745px;
+}
+
+main .maincontainer img{
+    width: 725px;
+}
+
+main .main-buttons{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* SEARCH */
+main .main-buttons .search-div{      
+    border-radius: 5px;     
+    width: 100%;
+    height: 35px;
+}
+
+main .main-buttons .search-div form{
+    width: 100%;
+    margin-left: 10rem;
+    padding: 3px 0rem;      
+}
+
+main .main-buttons .search-div input[type=text]{
+    padding: 2px 100px; 
+}
+
+/* BTN */
+main .main-buttons .btn{
+    width: 600px;
+    margin: 0.5rem 0;
+}
+
+main .gradient{
+    width: 100%;
+}
+
+main .img-overlay{ 
+    justify-content: space-around;
+}
+
+.cornice {
+    margin-bottom: 5px;
+}
+
+main footer{
+    grid-template-areas:"logo content1 content2 content3 content4"
+                        "logo sicial social social social";
+                        font-family:'Libre Baskerville', serif;                        
+}
+
+#logo h4{
+    font-size: 0.7rem;
+}
+
+#logo h5{
+    font-size: 0.5rem;
+}
+
+#social .fa{
+    font-size: 1.7rem;    
+    padding: 0.5rem;
+}
+}
+/*========480px===================*/
+@media all and (max-width:480px) {
+
+.portfolio{
+    border: none;
+    width: 100%; 
+}
+
+.icon{
+    display: block;
+    font-size: 1rem;    
+    margin-top: -75px;
+    margin-left: 420px;
+    position: absolute;
+}
+
+h1{
+    padding-top: 0.5rem;
+}
+h2{
+    margin: 0 auto;
+    font-size: 0.8rem;
+}
+
+header{    
+    border: none;
+    text-align: center; 
+    height: 80px; 
+}
+
+header .world{
+    font-size: 1rem;
+}
+
+#navbar{
+    display: none;
+}
+
+#navbar .links li{   
+    display: block;
+    text-align: center;
+    padding: 0 0rem;
+}
+
+#navbar .general-drop{
+    width: 150px;
+    margin-top: 40px;        
+}
+
+#navbar .work-drop{    
+    width: 160px; 
+    margin-top: 40px;
+}
+
+.code-drop{   
+    width: 160px;    
+    z-index: 2;
+    border-radius: 0 0 5px 5px;
+    margin-top: 40px;           
+}
+
+.targets-drop{   
+    width: 160px; 
+    margin-top: 40px;
+    margin-left: 0px;   
+}
+
+.tools-drop{
+    margin-left: 0px;
+}
+/* MAIN */
+main .maincontainer{
+    width: 460px;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+}
+
+.close{ 
+    margin-left: 400px;
+}
+
+main .maincontainer img{
+    width: 440px;
+    height: 260px;
+}
+
+.modal-content-interest{
+    width: 460px;    
+    height: 280px;
+}
+
+.modal-content-hobby .closeH{
+    margin-left: 400px;
+}
+
+.modal-content-hobby .hobby figure img{
+    width: 96%;
+    height: 94%;
+}
+
+.modal-content-education .closeE{
+    margin-left: 420px;
+}
+
+.maincontainer .modal-content-education .manzoni{
+    font-size: 18px;
+    padding: 1rem 0;    
+}
+
+.modal-content-education .frame{
+    margin-left: 25px;
+    margin-top: 50px;
+    width: 300px;
+    height: 220px;
+}
+
+.modal-content-developer .image-icons8 img{ 
+    margin-left: 250px;
+}
+
+.modal-content-developer .closeD{ 
+    margin-left: 400px;
+}
+
+.modal-container .modal-content-mould-maker .first-img{
+    width: 96%;
+}
+    
+.modal-container .modal-content-mould-maker .second-img{
+    width: 96%;
+}
+
+.modal-content-mould-maker .closeM{
+    margin-left: 400px;
+}
+
+.modal-content-farmer h2{
+    font-size: 1.3rem;    
+}
+
+.modal-content-farmer h3{
+    font-size: 14px;
+    padding: 0.5rem 0 1rem 0; 
+}
+
+.modal-content-farmer h4{
+    text-align: center;
+    font-size: 14px;
+}
+
+.modal-content-farmer .img-farmer-2 img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 10px;
+}
+
+.modal-content-farmer .img-farmer-3 img{   
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 360px;
+}
+
+.modal-content-farmer .closeF{
+    margin-left: 400px;
+}
+
+.modal-content-butcher .mad-butch img{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 53%;
+    height: 70%;
+    opacity: 0.5;    
+}
+
+.modal-content-butcher header h2{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+}
+
+.modal-content-butcher p{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin: 1rem 0;  
+}
+
+.modal-content-butcher .closeB{
+    margin-left: 410px;
+}
+
+.maincontainer .modal-content-html h2{
+    font-size: 1.5rem;
+    padding: 1rem 0 0.5rem 2rem;
+}
+
+.maincontainer .modal-content-html img{
+    margin-left: 90px;
+    width: 60%;
+    height: 60%;    
+}
+
+.modal-content-html .closeHt{
+    margin-left: 410px;
+}
+
+.maincontainer .modal-content-css h2{
+    font-size: 1.5rem;
+    padding: 1rem 0 0.5rem 2rem;
+}
+
+.maincontainer .modal-content-css img{
+    margin-left: 90px;
+    width: 60%;
+    height: 60%;
+}
+
+.modal-content-css .closeC{
+    margin-left: 410px;
+}
+
+.maincontainer .modal-content-js h2{
+    padding: 1rem 0 0.5rem 2rem;
+}
+
+.maincontainer .modal-content-js h3{
+    padding: 0 0 0.5rem 2rem;
+}
+
+.maincontainer .modal-content-js h4{
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.maincontainer .modal-content-js img{
+    margin-top: 40px;
+    margin-left: 180px;
+    width: 20%;
+    height: 30%;
+}
+
+.modal-content-js .closeJ{
+    margin-left: 410px;
+}
+/* BUTTONS */
+main .main-buttons{   
+margin-top: -1rem;
+}
+
+main .main-buttons .search-div form{    
+    margin-left: 1.7rem;
+    margin-bottom: 0.5rem;      
+}
+
+main .main-buttons .btn{
+    width: 400px;
+    margin: 0.3rem 0;
+}
+
+main .grid{
+    width: 100%;
+    grid-row-gap:2px;
+    grid-column-gap:2px;
+    padding: 0px 0px 0px 0px;
+}
+
+table{
+    width: 100%;
+}
+
+main .img-overlay{ 
+    width: 100%;
+}
+
+#logo h4{
+    font-size: 1rem;
+    padding-left: 0rem;
+}
+    
+#logo h5{
+    font-size: 0.4rem;
+    padding-left: 0rem;
+}
+
+footer h6{  
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+
+footer p, a{
+    font-size: 0.5rem;
+    margin-top: 0.5rem;    
+}
+
+#social .fa{
+    font-size: 1.3rem;
+    padding: 0.2rem;
+}
+}
+
+
+/* MIX */
+@media all and (min-width: 770px) and (max-width: 1020px){    
+    main .maincontainer{
+            width: 80%;
+}
+} 
+
+@media all and (min-width: 483px) and (max-width: 760px){    
+main .maincontainer{
+        width: 80%;
+}
+} 
+
+@media all and (min-width: 1201px) and (max-width: 1428px){    
+#navbar .links li{    
+    padding: 0 1.5rem;
+}
+}
+
+@media all and (min-width: 769px) and (max-width: 954px){    
+#navbar .links li{    
+    padding: 0 1rem;
+}
+}
+
+@media all and (min-width: 481px) and (max-width: 762px){     
+h2{
+    font-size: 1rem;
+}
+
+#navbar .links li{    
+    padding: 0 0.5rem;
+}
+}
+
+@media all and (min-width: 481px) and (max-width: 666px){ 
+
+#navbar .links li{    
+    padding: 0 0rem;
+}
+}

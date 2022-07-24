@@ -1,3 +1,23 @@
+
+  
+let count = 0
+let saveEl = document.getElementById("save-el")
+let countEl = document.getElementById("count-el")
+
+function increment() {  
+    //countEl.innerText = count = count + 1  //OR:  
+    count += 1
+    countEl.textContent = count
+}
+
+function save() {
+    let countStr = count + " - "
+    saveEl.textContent += countStr
+    countEl.textContent = 0 //riporta il contatore a 0 dopo salvato 
+    count = 0 //dobbiamo reimpostargli la variabile al punto iniziale del codice. Il conteggio torna a 0
+}
+
+
 function setOra(){
     let data = new Date();
     let ore = data.getHours();
@@ -322,5 +342,3 @@ function setOra(){
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
   }
-
-  

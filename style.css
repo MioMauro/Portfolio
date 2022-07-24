@@ -689,6 +689,7 @@ width: 97%;
 }
 /*== BUTCHER ==*/
 .maincontainer .modal-content-butcher{
+    margin-top: -80px;
     background-color: #f5c3c3;
     width: 100%;
     height: 100%;
@@ -700,7 +701,7 @@ width: 97%;
 
 .modal-content-butcher .mad-butch img{
     position: absolute;
-    margin-top: 100px;
+    margin-top: 20px;/**/
     margin-left: 460px;
     width: 35%;
     height: 70%;
@@ -715,7 +716,7 @@ width: 97%;
 .modal-content-butcher p{
     font-size: 1.1rem;
     padding-left: 2rem;
-    margin: 2rem 0;    
+    margin: 1rem 0;    
 }
 
 .modal-content-butcher .closeB{
@@ -1755,6 +1756,18 @@ main .maincontainer img{
     width: 725px;
 }
 
+.maincontainer .modal-content-butcher{
+    margin-top: -50px;
+}
+
+.modal-content-butcher .mad-butch img{
+    margin-left: 420px;
+}
+
+.modal-content-butcher .closeB{
+    margin-left: 700px;
+}
+
 main .main-buttons{    
     display: flex;
     flex-direction: column;
@@ -1990,6 +2003,18 @@ main .maincontainer img{
 .modal-content-farmer .closeF{
     margin-left: 400px;
 }
+
+.maincontainer .modal-content-butcher{
+    margin-top: -15px;
+}
+
+
+
+
+
+
+
+
 
 .modal-content-butcher .mad-butch img{
     position: absolute;

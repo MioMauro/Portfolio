@@ -1,5 +1,34 @@
 
-  
+ //Calc
+ let display = document.getElementById('display');
+ let btnCalc = Array.from(document.getElementsByClassName('btnCalc'));
+ 
+ btnCalc.map( btnCalc => {
+     btnCalc.addEventListener('click', (e) => {
+         switch(e.target.innerText){
+             case 'C':
+                 display.innerText = ''; 
+                 break;//clear text
+                 case '←': 
+                     if(display.innerText) {
+                         display.innerText = display.innerText.slice(0, -1);
+                     }                   
+                 break;//clear text
+                 case '=':
+                     try{
+                         display.innerText = eval(display.innerText);
+                     } catch {
+                         display.innerText = 'Error!';
+                     }                      
+                     break;
+                 default:
+                     display.innerText += e.target.innerText;  
+         }
+     })
+ }) 
+
+
+//Counter
 let count = 0
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
@@ -342,3 +371,6 @@ function setOra(){
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
   }
+
+ 
+

@@ -1634,6 +1634,72 @@ main .content-counter p{
 font-style: italic;
 font-weight: bold;
 }
+/* === */
+.calculator{
+    margin: 0 auto;
+    text-align: center;
+}
+.big-cont{  
+    padding: 0.3rem;
+    width: 100%;  
+    margin: 0 auto;
+    border-style: ridge;
+    padding-bottom: 0.3rem;
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+    background-color: #717472;
+}
+
+#display{
+    background-color: rgb(229, 236, 247);
+    margin: 0 auto;    
+    width: 400px;
+    height: 50px;
+    text-align: right; 
+    font-size: 24px;
+    border-style: ridge;
+    border-color: rgb(241, 248, 240);
+    border-radius: 5px;
+    padding: 0.6rem;    
+}
+
+.calc-container{
+    margin: 0 auto;
+    margin-top: 0.1rem;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 400px; 
+    border-radius: 5px;   
+}
+
+.calc-container > div{
+    border-color: rgb(247, 245, 243);
+    border-style: groove;
+}
+
+.calc-container .btnCalc{
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#equal{
+    background-color: cornflowerblue;
+}
+
+.calc-container .btnCalc:hover{
+    background-color: gainsboro;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
 
 /* === */
 main .text-footer{

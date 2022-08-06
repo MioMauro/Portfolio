@@ -1,0 +1,19 @@
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+background-color: black; 
+}
+
+canvas {     
+display: block;  
+background: rgb(168, 20, 20);   
+filter: blur(20px) contrast(20);
+}
+
+h2{
+    font-size: 50px;
+}

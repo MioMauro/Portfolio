@@ -865,6 +865,36 @@ main .explore .explore-btn h2{
     text-align: center;
     font-family: 'Libre Baskerville', serif; 
 }
+/* APPS */
+main .project{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+main .project h2{
+    margin: 0;
+}
+
+main .apps-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main .apps-btns .btns-apps{
+    width: 45px;
+}
+
+
+
+
+
+
+
+
 /* BUTTONS */
 main .main-buttons{ /* Div Buttons*/
     display: flex;

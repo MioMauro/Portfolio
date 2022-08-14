@@ -872,11 +872,6 @@ main .video-course{
 main .video-course iframe{
     padding: 7px 0;
 }
-
-
-
-
-
 /*== EXPLORE ===*/
 main .explore{ /* Div header */
     width: 100%;
@@ -910,6 +905,26 @@ main .apps-btns{
 main .apps-btns .btns-apps{
     width: 45px;
 }
+/* ANIMATIONS */
+main .animations{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+main .animations h2{
+    margin: 0;
+}
+
+main .cont-animations{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
 /* BUTTONS */
 main .main-buttons{ /* Div Buttons*/
     display: flex;

@@ -7,6 +7,7 @@
 body{
     background: rgb(26, 25, 25);
     overflow: hidden;
+    width: 100wh;
     height: 100vh;
     background-image: url(../imm/muntains.png);
     background-position: bottom;
@@ -31,7 +32,7 @@ img{
 }
 
 .text{
-    margin-top: 530px;
+    margin-top: 570px;
     margin-left: 75px;  
     color: rgb(87, 84, 82); 
 }

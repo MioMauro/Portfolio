@@ -1,0 +1,78 @@
+body{
+    background: black;
+}
+
+.moon{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #d8d8d8;
+    box-shadow: inset 15px 15px 10px #999;
+}
+
+.dog{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background: transparent url('dog.png') 0 0 no-repeat;
+    width: 302px;
+    height: 205px;
+    transform: translate(-50%, -50%);
+    margin: 2em auto;
+    animation: run 1s steps(20) infinite;
+}
+
+@keyframes run{
+    100%{
+        background-position: -6040px, 0;}
+}
+
+
+p.loading{
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    color: #4c4c4c;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #737373;
+    text-align: center;
+}
+
+input.left, input.right, span.left, span.right{
+    position: absolute;
+    top: -20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+span.left, span.right{
+    pointer-events: none;
+    color: #4c4c4c;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #737373;
+}
+
+input.left, span.left{
+    left: 0;
+}
+
+input.right, span.right{
+    right: 0;
+}
+
+input.left, input.right{
+    opacity: 0;
+}
+
+.left:checked ~ .dog{
+    transform: translate(-50%, -50%) rotateY(180deg);
+}

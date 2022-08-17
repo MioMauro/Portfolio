@@ -47,27 +47,6 @@ function save() {
 }
 
 
-function setOra(){
-    let data = new Date();
-    let ore = data.getHours();
-    let minuti = data.getMinutes();
-    let secondi = data.getSeconds();
-    
-    if(ore < 10){
-    ore = "0" + ore;
-    }  
-    if(minuti < 10){
-    minuti = "0" + minuti;
-    }  
-    if(secondi < 10){
-    secondi = "0" + secondi;
-    }  
-    document.getElementById("clock").innerHTML = ore + ":" + minuti + ":" + secondi;
-    }  
-    setInterval(setOra, 1000)
-  
-  
-  
     function myFunction() {
       var x = document.getElementById("navbar");
       if (x.style.display === "block") {
@@ -75,10 +54,7 @@ function setOra(){
       } else {
         x.style.display = "block";
       }
-    }
-  
-  
-  
+    }  
     // Get the modal==interest
   var modal = document.getElementById("myModal");
   
@@ -102,9 +78,7 @@ function setOra(){
       modal.style.display = "none";
     }
   }
-  
-  
-  
+    
   // Hobby  
   var modal2 = document.getElementById("myModalH");  
   // Get the button that opens the modal 
@@ -372,5 +346,5 @@ function setOra(){
     dots[slideIndex-1].className += " active";
   }
 
- 
+
 

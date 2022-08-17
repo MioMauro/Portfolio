@@ -49,31 +49,6 @@ header .world{
     position: absolute;
     padding-top: 10px;
 }
-/* CLOCK */
-
-#clock{
-    margin: 0 auto;
-    width: 130px;
-    height: 30px;
-    padding: 5px;
-    text-align: center;    
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
-    border-style: double;   
-    font-size: 16px;    
-    color: rgb(127, 165, 57);
-    background-image: linear-gradient( #273f31, #096609);
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    border-radius: 10px;
-}
-    
-#clock:hover{
-    transform: scale(1.10);
-}
-    
-#clock:active{  
-    background-color: rgb(36, 58, 46);
-}
 /*===*/
 .nav-bar{
     width: 100%;
@@ -1566,6 +1541,10 @@ main .conic{
     flex-wrap: wrap;
 }
 
+main .colors h2 span{
+    font-size: 14px;
+}
+
 main .conic .example{
     width: 100px;
     height: 100px;
@@ -1624,7 +1603,7 @@ main .img-overlay{ /* Flexbox-slide */
     flex-wrap: wrap;
 }
 
-main .img-over span{
+main .img-over h2 span{
     font-size: 14px;
 }
 /*===*/

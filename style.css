@@ -944,7 +944,22 @@ main .cont-animations .btns-anim{
 	position:relative;
 	top:1px;
 }
-/* BUTTONS */
+/* REACT */
+main .react{
+    width: 8.1%;
+    margin: 0 auto;
+}
+
+main .cont-react{
+    display: flex;
+    justify-content: space-around;
+}
+
+main .react img{
+    width: 100px;
+}
+
+/* LINKS */
 main .main-buttons{ /* Div Buttons*/
     display: flex;
     justify-content: space-around;

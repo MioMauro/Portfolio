@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff&family=Rubik+Dirt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkorange;
+}
+
+.top-container{
+    background-image: url(pattern.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;   
+}
+
+img{
+    width: 90px;
+    height: 35px;
+    margin: 1rem;
+}
+
+.top-container h1{
+    font-family: 'Rubik Dirt', cursive;
+    margin: 0;
+    color: rgb(248, 4, 4);
+    font-size: 6rem;
+    text-shadow: 2px 2px black;
+    background-color: white;
+    opacity: 0.8;
+    padding: 0.2rem 1.5rem;
+    border-radius: 10px;
+    letter-spacing: 1px;    
+}
+
+.bottom-container{
+    background-color: darkorange;
+}
+
+.bottom-container .text{
+    padding: 1%;
+    margin: 50px 5%;
+    background-color: goldenrod;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: aliceblue;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(13, 16, 219);
+    z-index: 10;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 4rem;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: #000;
+    font-family: cursive;
+}
+
+.navbar ul a:hover{
+    color: crimson;
+}
+
+.navbar.active{
+    background-color: rgb(15, 34, 206);
+    
+}
+
+.navbar.active ul li a{
+    color: azure;
+    text-shadow: 1px 1px black;
+    
+}

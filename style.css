@@ -892,6 +892,7 @@ main .apps-btns .btns-apps{
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ced9bf;
+    margin: 5px;
 }
 
 .btns-apps:hover {
@@ -934,6 +935,7 @@ main .cont-animations .btns-anim{
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #528009;
+    margin: 5px;
 }
 
 .btns-anim:hover {
@@ -959,6 +961,25 @@ main .react img{
     width: 100px;
 }
 
+main .react .icon-rotate{
+    
+}
+
+.icon-rotate:hover{
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
 /* LINKS */
 main .main-buttons{ /* Div Buttons*/
     display: flex;

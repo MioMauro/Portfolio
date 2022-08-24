@@ -918,6 +918,7 @@ main .animations h2{
 main .cont-animations{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 main .cont-animations .btns-anim{

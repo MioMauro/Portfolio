@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arima:wght@200&family=Bebas+Neue&family=Blaka&family=Fraunces:opsz,wght@9..144,700&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500;700&family=Noto+Serif&family=Titan+One&family=Ubuntu+Condensed&display=swap');
+
+
+
+
+
+
+
+*{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: rgb(240, 248,240);
+    font-size: 35px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(251,199,127);
+}
+
+header{
+    padding: 10px;
+}
+
+.departures{
+    background-color: rgb(6,6,6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.departures table{
+    background-color: rgb(46,46,46);
+    text-align: left;
+    min-height: 305px;
+}
+
+.departures table td{
+    height: 50px;
+}
+
+.departures table div{
+    border: solid 4px rgb(26, 26, 26);
+    background-color: rgb(0, 0, 0);
+    float: left;
+    height: 40px;
+}
+
+#time{
+    width: 160px;
+}
+
+#destination{
+    width: 260px;
+}
+
+#flight{
+    width: 205px;
+}
+
+#gate{
+    width: 135px;
+}
+
+#remarks{
+    width: 260px;
+}
+
+.flip{
+    animation: 0.5s linear flipping;
+}
+
+@keyframes flipping{
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    50% {
+        transform: rotateX(90deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

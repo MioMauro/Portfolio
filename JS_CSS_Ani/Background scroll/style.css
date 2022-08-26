@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(245, 221, 245);
+}
+
+.bg-image{
+    background-image: url("https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 150%;
+    height: 100vh;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.scroll{
+    position: absolute;
+    color: aliceblue;
+    left: 50%;
+    margin-top: -3rem ;   
+    transform: translate(-50%);
+    
+}
+
+h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    border-image-slice: 12 12 12 12;
+    border-image-width: 12px 12px 12px 12px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: repeat repeat;
+    border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-5.png");
+    border-style: solid;
+}

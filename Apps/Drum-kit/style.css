@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: gainsboro;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 3px red;
+    white-space: nowrap;
+    padding: 1rem;
+}
+
+.container{
+    text-align: center;
+}
+
+.btn{
+    width: 150px;
+    color: rgb(22, 233, 3);
+    margin: 5px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px black;
+    font-weight: bolder;
+    background-image: url("sounds/drums.png");
+    background-size: cover;
+    box-shadow: 0px 2px 5px rgba(0,0,0, 0.5);
+    text-transform: capitalize;
+}
+
+.btn:hover{
+    color: red;
+}
+
+.btn:active{
+    background-size: 105%;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    padding: 0.5rem 0;
+    background: yellowgreen;
+    text-align: center;
+    bottom: 0;
+}

@@ -893,6 +893,7 @@ main .apps-btns .btns-apps{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ced9bf;
     margin: 5px;
+    white-space: nowrap;
 }
 
 .btns-apps:hover {
@@ -937,6 +938,7 @@ main .cont-animations .btns-anim{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #528009;
     margin: 5px;
+    white-space: nowrap;
 }
 
 .btns-anim:hover {

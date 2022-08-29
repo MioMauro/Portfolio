@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    padding: 0.5rem 0;
+    position: fixed;
+    background: rgb(226, 192, 43);
+    text-align: center;
+    bottom: 0;
+}

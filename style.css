@@ -949,23 +949,16 @@ main .cont-animations .btns-anim{
 	position:relative;
 	top:1px;
 }
-/* REACT */
-main .react{
-    width: 8.1%;
-    margin: 0 auto;
-}
 
-main .cont-react{
+/* LOGOS */
+main .logos{
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
-main .react img{
-    width: 100px;
-}
-
-main .react .icon-rotate{
-    
+main .logos .react .icon-rotate{
+    width: 150px;
 }
 
 .icon-rotate:hover{
@@ -983,6 +976,27 @@ main .react .icon-rotate{
 @keyframes spin{
     100%{-webkit-transform: rotate(360deg);}
 }
+
+main .logos .bootstraps .icon-bootstraps{
+    width: 250px;
+}
+
+main .logos .bootstraps .icon-bootstraps:hover{
+    transform: scale(1.3);
+    transition: 0.7s;
+    
+}
+
+main .logos .wordpress .icon-wordpress{
+width: 350px;
+transition: width 1s;
+mix-blend-mode: multiply;
+}
+
+main .logos .wordpress .icon-wordpress:hover{
+width: 400px;
+}
+
 /* LINKS */
 main .main-buttons{ /* Div Buttons*/
     display: flex;
